@@ -1,0 +1,24 @@
+{
+  "policy_id": "AP001",
+  "decision_date": "2026-11-12",
+  "methodology_entry": "M022",
+  "decision_source": "investigator_instruction_in_conversation",
+  "deferred_acquisitions": [
+    {
+      "session_id": "2025-06-20_c1_r2",
+      "acquisition_subdir": "nikon_d70",
+      "reason": "incomplete_secondary_camera_acquisition",
+      "status": "reserve_not_used_in_initial_partition"
+    }
+  ],
+  "source_change_decisions": [
+    {
+      "source_path": "data/raw/2025-06-20_c1_r2/nikon_d70/DSC_0380.JPG",
+      "decision": "accept_current_file_as_is",
+      "accepted_sha256": "9af00d2b6f8b75c2b75f9877a874780c7c4bc4633d2b65c6b011f7d26d02cc1f",
+      "cause_status": "not_established",
+      "reviewer": "investigador",
+      "decision_date": "2026-11-12"
+    }
+  ]
+}

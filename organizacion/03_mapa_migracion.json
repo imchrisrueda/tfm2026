@@ -1,0 +1,723 @@
+[
+  {
+    "old": "Convert-HeicToJpg.ps1",
+    "new": "01_Convert-HeicToJpg.ps1",
+    "original_sha256": "bc5e1138c4a34b00cc8bf8b092072e4888c1a91da867dff7372ef7a49fce9648",
+    "current_sha256": "5a7feedb74db08c5a9c0922712e8c4350927e0e811832d81a38e66e035e3f573",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "FLUJO_IMAGENES_TFM.md",
+    "new": "02_FLUJO_IMAGENES_TFM.md",
+    "original_sha256": "a24c50a364a5857fa11f2fdb7b69ee6834dc53d8dd016ec6af5655e6e4b6102b",
+    "current_sha256": "1fe7356f661d9834c8ca9299d4e2edad8eaef914adbabd302781c1785f2e05ac",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "PLANIFICACION_TFM.md",
+    "new": "03_PLANIFICACION_TFM.md",
+    "original_sha256": "bd9d52969bc103af3af8e82b245746cc548b90983d8bbe7443f2098d1f02a4b2",
+    "current_sha256": "5a2766c504838b6b8da4c8716da7efdee59a8eb24309e2dd0952ac609128ecf7",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "PROTOCOLO_ESCALA_MACETAS.md",
+    "new": "04_PROTOCOLO_ESCALA_MACETAS.md",
+    "original_sha256": "2c7241152c5f82b70ec13eb77e8f72f47b55f9873f78f7ddedc7c838f3dcf81a",
+    "current_sha256": "37b9d3ccfdeb52990e16bc361a1e9b040fe671c4f7374a7583e94fb4fdf34531",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "README_convert_heic.md",
+    "new": "05_README_convert_heic.md",
+    "original_sha256": "173e644b1b77bc580b63ff6e78c96053d39a067c146ee97eb21ebb9dc1ff0e22",
+    "current_sha256": "1da4c3849e4b0e4b847a9dcdd6e1c1373c2377afaca65f25a528f41acdcf66dd",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "tfg_base.pdf",
+    "new": "06_tfg_base.pdf",
+    "original_sha256": "4f4ef16d970dc28a7635a4ff54ae734f455c00318ee98dffaa88ccc8b8d33a1a",
+    "current_sha256": "4f4ef16d970dc28a7635a4ff54ae734f455c00318ee98dffaa88ccc8b8d33a1a",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/AUDITORIA_DATOS_CRUDOS_2026-11-12.md",
+    "new": "documentacion/01_informes/01_AUDITORIA_DATOS_CRUDOS_2026-11-12.md",
+    "original_sha256": "f291f2acbbd581f38e745aa3f21073949c42d330a0d57d0ce956497f88b25c29",
+    "current_sha256": "2ece155d1d3fbee81cba603dea8f3266b785f1e87aecf40ae87efc8e9228a9b0",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/EXPERIMENTO_COMPARACION_PREPROCESADO_V1.md",
+    "new": "documentacion/02_protocolos/01_EXPERIMENTO_COMPARACION_PREPROCESADO_V1.md",
+    "original_sha256": "3adf22f1bc6c944e0b2abab0f1ff44f8108ebee3a05e3965789e142ffb2385b4",
+    "current_sha256": "f4a653a6bb28edfb0145e425bd2e73742f8224f398afee515930598cb91f7bba",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/GUIA_MASCARAS_HUMANAS_BENCHMARK.md",
+    "new": "documentacion/02_protocolos/02_GUIA_MASCARAS_HUMANAS_BENCHMARK.md",
+    "original_sha256": "13bd5824e7bde4bc2e82a6e6620b8c6084fa8488eec75a2e744a9bb1edb3ccbc",
+    "current_sha256": "7819b1d6e1a471546261b28459c27e6fbd62f5778bb315440c808d75cc872314",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.aux",
+    "new": "99_archivo/02_compilacion_previa/01_main.aux",
+    "original_sha256": "a26b9e3c9026ed4b2053f506a8e1d905521433de9e53f5d1e61de6c037796651",
+    "current_sha256": "a26b9e3c9026ed4b2053f506a8e1d905521433de9e53f5d1e61de6c037796651",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.bbl",
+    "new": "99_archivo/02_compilacion_previa/02_main.bbl",
+    "original_sha256": "12710a24f83c10590530b62bc4d4726365bf225ab87f8ba48c8216758b2de2c9",
+    "current_sha256": "12710a24f83c10590530b62bc4d4726365bf225ab87f8ba48c8216758b2de2c9",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.blg",
+    "new": "99_archivo/02_compilacion_previa/03_main.blg",
+    "original_sha256": "4bd29969e9c08147964910b18e62d704076a646f909648eeb7381f9011fca9e6",
+    "current_sha256": "4bd29969e9c08147964910b18e62d704076a646f909648eeb7381f9011fca9e6",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.log",
+    "new": "99_archivo/02_compilacion_previa/04_main.log",
+    "original_sha256": "2b0c64036c49d79b05de659b09dc7567c0f11c252379034d6f080c7846f73e0c",
+    "current_sha256": "2b0c64036c49d79b05de659b09dc7567c0f11c252379034d6f080c7846f73e0c",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.out",
+    "new": "99_archivo/02_compilacion_previa/05_main.out",
+    "original_sha256": "f0f066e1885bb44a78eb617743474158bb1a39ffd2e9c9b6631c8a72edf38df9",
+    "current_sha256": "f0f066e1885bb44a78eb617743474158bb1a39ffd2e9c9b6631c8a72edf38df9",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.pdf",
+    "new": "doc/02_memoria_previa.pdf",
+    "original_sha256": "35426ca497c3b042512054ba68db7f59a9d1dea0e921e835c268c5bb074149fb",
+    "current_sha256": "35426ca497c3b042512054ba68db7f59a9d1dea0e921e835c268c5bb074149fb",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.synctex.gz",
+    "new": "99_archivo/02_compilacion_previa/06_main.synctex.gz",
+    "original_sha256": "7a90d04794b489f7dc0a56ff2baeb4e6b065faf123c0b71c32433738e18354dc",
+    "current_sha256": "7a90d04794b489f7dc0a56ff2baeb4e6b065faf123c0b71c32433738e18354dc",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.tex",
+    "new": "doc/01_memoria.tex",
+    "original_sha256": "3b12f817e5d49ceabfa644e270f05544991de164ee1490ac58c0601e062d1a19",
+    "current_sha256": "b616d1fe0eb8d835efb5c532219f977365d949c2ebeeff83699ee6dd625e5e40",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/main.toc",
+    "new": "99_archivo/02_compilacion_previa/07_main.toc",
+    "original_sha256": "a8497d009b3af0275a9923583778544a3e6b2b6e4bbaa000017db1a5527d0ca6",
+    "current_sha256": "a8497d009b3af0275a9923583778544a3e6b2b6e4bbaa000017db1a5527d0ca6",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/REVISION_PREPROCESADO_2026-11-12.md",
+    "new": "documentacion/01_informes/02_REVISION_PREPROCESADO_2026-11-12.md",
+    "original_sha256": "fe6fc8fe8763b7e062c140847553b170d5406c98819cb8f5b4fe2810bf6d6f71",
+    "current_sha256": "89c3532533dc481e2db83d8c8aadd4ec24c58e9a3f53c9898e568a69dd229b8a",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/REVISION_SEGMENTATION_BENCHMARK_V1.md",
+    "new": "documentacion/01_informes/03_REVISION_SEGMENTATION_BENCHMARK_V1.md",
+    "original_sha256": "fa512d725278744bf59b30708d6e49436a349f92006582dd0707ee750941bf7b",
+    "current_sha256": "4811395d714c5243158bb6633fd030e68b63081c20dd13cd4c8c8b0ef03d3ad0",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/REVISION_SEGMENTATION_BENCHMARK_V1_CHECKS.json",
+    "new": "documentacion/01_informes/04_REVISION_SEGMENTATION_BENCHMARK_V1_CHECKS.json",
+    "original_sha256": "657fdc5811248085819a5558c56d319cbce725bd5db62973a4a66e83fe8eac04",
+    "current_sha256": "657fdc5811248085819a5558c56d319cbce725bd5db62973a4a66e83fe8eac04",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/anexos/anexo-a.tex",
+    "new": "doc/anexos/01_anexo-a.tex",
+    "original_sha256": "19e4e6219c7b11a45c72fa5eeef0eabf3656d8554c305c3dc89f9e82daaac57f",
+    "current_sha256": "19e4e6219c7b11a45c72fa5eeef0eabf3656d8554c305c3dc89f9e82daaac57f",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/bibliografia/referencias.bib",
+    "new": "doc/bibliografia/01_referencias.bib",
+    "original_sha256": "3108759a1ddf45cbe9a8c0daae32d60c246bdf4edb7d6184e3eeb8c097e736a0",
+    "current_sha256": "bec7e551dc5f703b1f0c266d16c3986bd86fe2c9634b677387bf99d214044ec5",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/bibliografia/texput.log",
+    "new": "99_archivo/02_compilacion_previa/08_texput.log",
+    "original_sha256": "f48218549967fe5696cbff72de5e68829ee440aea530ed04577fcaeb1d49921b",
+    "current_sha256": "f48218549967fe5696cbff72de5e68829ee440aea530ed04577fcaeb1d49921b",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/capitulos/01-introduccion.tex",
+    "new": "doc/capitulos/01_introduccion.tex",
+    "original_sha256": "3f9fe8e200a5b6d874facda2087d7e624ceebea9810f03bac07423d8fec20352",
+    "current_sha256": "3f9fe8e200a5b6d874facda2087d7e624ceebea9810f03bac07423d8fec20352",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/capitulos/02-estado-arte.tex",
+    "new": "doc/capitulos/02_estado_arte.tex",
+    "original_sha256": "584ecdb61ad46c9d315b2e51c83d077d1b0ae28de4ce1fae52f9eb22acb85ea7",
+    "current_sha256": "584ecdb61ad46c9d315b2e51c83d077d1b0ae28de4ce1fae52f9eb22acb85ea7",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/capitulos/03-metodologia.tex",
+    "new": "doc/capitulos/03_metodologia.tex",
+    "original_sha256": "c13de3f0a8e1a3bc9b030aa4581135f13fde584223af88082880721db9960684",
+    "current_sha256": "c13de3f0a8e1a3bc9b030aa4581135f13fde584223af88082880721db9960684",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/capitulos/04-resultados.tex",
+    "new": "doc/capitulos/04_resultados.tex",
+    "original_sha256": "d53f5a2ee7a80b1a82316502fa1a14bb05f5fd3dde8e4608718fb62ed67dd481",
+    "current_sha256": "d53f5a2ee7a80b1a82316502fa1a14bb05f5fd3dde8e4608718fb62ed67dd481",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/capitulos/04b-discusion.tex",
+    "new": "doc/capitulos/05_discusion.tex",
+    "original_sha256": "1ced983c461f231d3b445b0141eae4f56dd2fefd884c40ead8dde1bbb2950e61",
+    "current_sha256": "1ced983c461f231d3b445b0141eae4f56dd2fefd884c40ead8dde1bbb2950e61",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/capitulos/05-conclusiones.tex",
+    "new": "doc/capitulos/06_conclusiones.tex",
+    "original_sha256": "792fa03ccb9dde9212364a74a0e30fec69cb43e56e291510788c0eac7040eaec",
+    "current_sha256": "792fa03ccb9dde9212364a74a0e30fec69cb43e56e291510788c0eac7040eaec",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/config/estilo-pagina.tex",
+    "new": "doc/config/01_estilo-pagina.tex",
+    "original_sha256": "d6364a7e8f9ca8208c1db7862057e90d016fbadcccb172a99fb358d69c3f305e",
+    "current_sha256": "987097df1b89a0835d4beec6bc6a632a17bbe78c3905b50786d7d21ff6c085fd",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/figuras/README.md",
+    "new": "doc/figuras/01_README.md",
+    "original_sha256": "b7e886bf0966826ad5138f4140359401ee136e6ccc8ec5acb0b77cd776f90388",
+    "current_sha256": "b7e886bf0966826ad5138f4140359401ee136e6ccc8ec5acb0b77cd776f90388",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/preliminares/agradecimientos.tex",
+    "new": "doc/preliminares/02_agradecimientos.tex",
+    "original_sha256": "b94d2aa01db75802ff8b84958e594d919e9cd43d1305c0b3979a8334aa5795bd",
+    "current_sha256": "b94d2aa01db75802ff8b84958e594d919e9cd43d1305c0b3979a8334aa5795bd",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/preliminares/portada.tex",
+    "new": "doc/preliminares/01_portada.tex",
+    "original_sha256": "856e616716fb18fe1fe23f8575cc443ada056d90944bbfb749de00a96f2420a7",
+    "current_sha256": "129a3da702ca6f19eb2f95b496a8d1738d15c8a35187463ff2c284ab90149821",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/preliminares/resumen.tex",
+    "new": "doc/preliminares/03_resumen.tex",
+    "original_sha256": "f1dd3273515783e6d5af1d573646f49fe829cba7d86a05e912982f4a4d7a4f80",
+    "current_sha256": "f1dd3273515783e6d5af1d573646f49fe829cba7d86a05e912982f4a4d7a4f80",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/recursos/README.md",
+    "new": "doc/recursos/01_README.md",
+    "original_sha256": "e9c19ac156232d4745fd5cb055dd27224e37a1588b7b1b796e349ca0047cb859",
+    "current_sha256": "c8caa71f6afecd5f6468c6087e5713ce3a2a13e989d8d95ca87df9a9dd1e84f6",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/recursos/umu.png",
+    "new": "doc/recursos/02_umu.png",
+    "original_sha256": "3030e405561a6a991e29a19eb885f6584c445378bb8cb847d795c4e9ba77e038",
+    "current_sha256": "3030e405561a6a991e29a19eb885f6584c445378bb8cb847d795c4e9ba77e038",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "doc/tablas/README.md",
+    "new": "doc/tablas/01_README.md",
+    "original_sha256": "1a21b6518429eafb5861155b8d43df9503fda7252e445e3de97d1b7846e0ea3e",
+    "current_sha256": "1a21b6518429eafb5861155b8d43df9503fda7252e445e3de97d1b7846e0ea3e",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/2025.csv",
+    "new": "exp_design/01_2025.csv",
+    "original_sha256": "31d2ec70d412a3df4a60473939ef3e630caa3bdbea02bfd4106e00f355867437",
+    "current_sha256": "31d2ec70d412a3df4a60473939ef3e630caa3bdbea02bfd4106e00f355867437",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/2025_details.csv",
+    "new": "exp_design/02_2025_details.csv",
+    "original_sha256": "479e2550e0c0d78396e563e3e65b9c461121025ba28270b7e2e1e2ceaddb19f7",
+    "current_sha256": "479e2550e0c0d78396e563e3e65b9c461121025ba28270b7e2e1e2ceaddb19f7",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/2026.csv",
+    "new": "exp_design/03_2026.csv",
+    "original_sha256": "1731c1b74db3c89108638862a70574a9635846695f3b6a525417ef552e98bc81",
+    "current_sha256": "1731c1b74db3c89108638862a70574a9635846695f3b6a525417ef552e98bc81",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/acquisition_policy.json",
+    "new": "exp_design/04_acquisition_policy.json",
+    "original_sha256": "ced767842e51db349d193948cc7f560d70a29be6b9ca76a61a046b850f85f2d3",
+    "current_sha256": "7641aa5cdb87dbb37b7e3d0389d7febda2d3822b1e2d502a01c839bbb72394dd",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/development_rim_visual_extents_v2.csv",
+    "new": "exp_design/05_development_rim_visual_extents_v2.csv",
+    "original_sha256": "f656277b8228aa06b9916b9686b2f62e1cfd5d5e8f42a851af9ff0a5710db326",
+    "current_sha256": "f656277b8228aa06b9916b9686b2f62e1cfd5d5e8f42a851af9ff0a5710db326",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/development_rim_visual_extents_v3.csv",
+    "new": "exp_design/06_development_rim_visual_extents_v3.csv",
+    "original_sha256": "34fea70f954ce858cf1b77c46139b7e57e1f0f2e833e10db4b8e115f04c3ca9b",
+    "current_sha256": "34fea70f954ce858cf1b77c46139b7e57e1f0f2e833e10db4b8e115f04c3ca9b",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/partition_assignments_v1.csv",
+    "new": "exp_design/07_partition_assignments_v1.csv",
+    "original_sha256": "f1f3de08ca38848c14931090d8c44cd5427598092967eae6455eca5d5332d419",
+    "current_sha256": "f1f3de08ca38848c14931090d8c44cd5427598092967eae6455eca5d5332d419",
+    "frozen_bytes_preserved": true
+  },
+  {
+    "old": "exp_design/partition_plan_v1.json",
+    "new": "exp_design/08_partition_plan_v1.json",
+    "original_sha256": "e318d1a2737840d69caf72fbe421c0ab3438225f8fbad7319062db15e496898a",
+    "current_sha256": "e318d1a2737840d69caf72fbe421c0ab3438225f8fbad7319062db15e496898a",
+    "frozen_bytes_preserved": true
+  },
+  {
+    "old": "exp_design/preprocessing_fullframe_pilot_v2.json",
+    "new": "exp_design/09_preprocessing_fullframe_pilot_v2.json",
+    "original_sha256": "9d32adb8814d85efe464485a4ddb1925c5f250d3b2bd63cf9149154a2b4c2b30",
+    "current_sha256": "2baddb18b9b9377688ba533319c3e252abf1af2a75ed9592aa6f336f9f0424aa",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/preprocessing_fullframe_v2_frozen.json",
+    "new": "exp_design/10_preprocessing_fullframe_v2_frozen.json",
+    "original_sha256": "4b6947cbe0c881500406e14056d241f53380454c1cdefc3eec949a1e4473e402",
+    "current_sha256": "4b6947cbe0c881500406e14056d241f53380454c1cdefc3eec949a1e4473e402",
+    "frozen_bytes_preserved": true
+  },
+  {
+    "old": "exp_design/preprocessing_pilot_v1.json",
+    "new": "exp_design/11_preprocessing_pilot_v1.json",
+    "original_sha256": "fbf97f87cef2b1383d0a5519c3b5a60d7875eb96ec5a2adb48fbc6ea7498d27f",
+    "current_sha256": "cd45cb06239eb14a35aca3158834a50b223b8e172fd0b20928279e5d8d6d5ba1",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/preprocessing_registry.json",
+    "new": "exp_design/12_preprocessing_registry.json",
+    "original_sha256": "d9e184f5194aa5aa029a81c53f3d60054de6005f87c5040b63c930c39b8a6cfa",
+    "current_sha256": "21b13da90a3e5823a01a1c3316e17f753c909247b1bba1152d74a55b8cb11b38",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/segmentation_benchmark_v1_plan.json",
+    "new": "exp_design/13_segmentation_benchmark_v1_plan.json",
+    "original_sha256": "6fd57a3ee5efea7a0dd19be3d03870aa763621f82bf09390df3ddf22bda99eb6",
+    "current_sha256": "9473a09fb21f26ea66179ea1db5befeeca2e0b72a4db3307bf4b3f45ac12ff72",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "exp_design/species_corrections.csv",
+    "new": "exp_design/14_species_corrections.csv",
+    "original_sha256": "431717ffb6df0c59359e1c9b8db8a335fafaabc0cdbfa75604598a07044b4d99",
+    "current_sha256": "431717ffb6df0c59359e1c9b8db8a335fafaabc0cdbfa75604598a07044b4d99",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/audit_visual_sample.py",
+    "new": "scratch/s01_audit_visual_sample.py",
+    "original_sha256": "48dfe3034e4013c4e3eaaef86f538b6a28e30f6bb1bc8e5f939966e4b82b8067",
+    "current_sha256": "c20ba89ef7a5a602becf89a4891bbcfef725be57d1a46cbd8e8d1da90fc3ca37",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/check_data_readiness.py",
+    "new": "scratch/s02_check_data_readiness.py",
+    "original_sha256": "72cd0305accef2af14c7f2167c86cd47dce4a27557710af9828624522c0dc736",
+    "current_sha256": "408c94d10067035c7a7e863bd01973abe13718b3fa5c11752566d741e3715c49",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/validate_final_manifests.py",
+    "new": "scratch/s03_validate_final_manifests.py",
+    "original_sha256": "96e181b1f3b76586e2c5264a3c145f22d689e8f68c56bb123383166e57eaabe5",
+    "current_sha256": "573efc01f5e852edc1613c71fe486c5241fe7f4ebc8bc825b01b8dee5e3de540",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/validate_geometry_detector.py",
+    "new": "scratch/s04_validate_geometry_detector.py",
+    "original_sha256": "834fead8dab2c9dded21aba232a6d084d2086d34b6dd3588784e573cfbb0909d",
+    "current_sha256": "ef7bbfd00eecd4fd5d13630f06b8fad1d8abacbe4ba5c92ca155adb7268533ba",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/validate_group_partitions.py",
+    "new": "scratch/s05_validate_group_partitions.py",
+    "original_sha256": "a021f3ca7bb5303b18a59842f149fd89b1773bf9b9997491a666061254f0f44c",
+    "current_sha256": "c121db38eaf7b70e09159e2ce97916d58a4cd70f537aee7839fab8c1e5bb2636",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/validate_raw_audit.py",
+    "new": "scratch/s06_validate_raw_audit.py",
+    "original_sha256": "2f479c57ad5d53304e3c71a8a7a82da7e10fa59f59fa84fff6bdeaa920ed01b3",
+    "current_sha256": "f600cd9124e4bfe252ed8f97bb2fa6dedab2c9ff48ff41ce6cac08e7171669aa",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scratch/validate_sowing_verification.py",
+    "new": "scratch/s07_validate_sowing_verification.py",
+    "original_sha256": "91aa96d7fba3ac5bceeca2cc04e53d53acdc94c62daab0fc1d43a589328495a2",
+    "current_sha256": "be18d5d0b0ae43d9350f382dcdb5959d5adbe71d43fff8f4215d9998de658f93",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/annotate_metric_geometry.py",
+    "new": "scripts/s01_annotate_metric_geometry.py",
+    "original_sha256": "70da91af9734b3c3378a1054f83cff28b2f9700cec9186863bfbbbf1ac3378b1",
+    "current_sha256": "7c3ef795a8cf24cdb959efdddac3d9dcc24a10843131c1781001383342bb3e8b",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/audit_fullframe_execution.py",
+    "new": "scripts/s02_audit_fullframe_execution.py",
+    "original_sha256": "a11898d9ddae6d6b0286765d40398da6d81d095a104ca8f6f4262967bea511c6",
+    "current_sha256": "7c22b66db3499b6f1b358cdc6cba519755fea7d715d971f05b7dfb52b38a3504",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/audit_preprocessing_completion.py",
+    "new": "scripts/s03_audit_preprocessing_completion.py",
+    "original_sha256": "4495e68ba625c5bacc14674965dd3a6b7a9aa755585b227604a3cb5845b495ac",
+    "current_sha256": "2987926ee8f96354d32fd4ec6a959d18d3dafde3ee1b3c4859afea16bd29c73a",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/audit_raw_dataset.py",
+    "new": "scripts/s04_audit_raw_dataset.py",
+    "original_sha256": "496bdfc2fc94156aa52c87f484b88ec9c6c6fcf66df96b672ca1181e9eae1479",
+    "current_sha256": "5a2bb48cdca6a1d92a0cb426d4e451a08594dfbaac74773e6eb3ed8558f15601",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/build_dataset_manifests.py",
+    "new": "scripts/s05_build_dataset_manifests.py",
+    "original_sha256": "4b764bcb7da40cf142ed9c2b247ae6c0fc90146ed85b5fed2bc76566d4bd7eed",
+    "current_sha256": "b4de264df56e0a95840e7f8f0766bc60756a6848b4043f4bfd6c2941ee1638a0",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/compare_preprocessing_strategies.py",
+    "new": "scripts/s06_compare_preprocessing_strategies.py",
+    "original_sha256": "b206e73b62ff3a07fb9b5f0483d9354f68682050ec59cb2c82ea9bccdf1d13fc",
+    "current_sha256": "403e112168c6a529fecc69611db6527074e442878d434b68df4d78bb6dfc621f",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/consolidate_development_geometry.py",
+    "new": "scripts/s07_consolidate_development_geometry.py",
+    "original_sha256": "edcdbbe74d12683399ad753cbb27b03b6bdfaa878e18e816996f30dcadc2f498",
+    "current_sha256": "58ef07ba98667f08cc79fa01bd1e959f3eb7d6b884186fbb105175c718e836c3",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/copy_verification_images.py",
+    "new": "scripts/s08_copy_verification_images.py",
+    "original_sha256": "fb5262dab021995a4b792e7a9d1fdf2f5fb5aaee61f6e6c7ba73186ab7adddc2",
+    "current_sha256": "b6d5ec97dbef6a6ab999fe0d196d7b3fac82146bacae2f0ae6167144eab13ed0",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/create_group_partitions.py",
+    "new": "scripts/s09_create_group_partitions.py",
+    "original_sha256": "571e4472967ed2c75d368d4d5b9c7881261685b800478a1fb8c6338665e824df",
+    "current_sha256": "a8c1c6ba2ed893415d3c74768a2191dc9cdd4dfab423252ededecb92210ceb26",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/detect_pot_geometry.py",
+    "new": "scripts/s10_detect_pot_geometry.py",
+    "original_sha256": "e2543e9abbf359030c703a594ef92ec00a7413f9de2e95faa6f72e45aabb4383",
+    "current_sha256": "91b706ce711081206d7bcb0811b5e2278b16b2cf788d78d2f27ce696575726aa",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/diagnose_green_roi_trial.py",
+    "new": "scripts/s11_diagnose_green_roi_trial.py",
+    "original_sha256": "6c2af392c4ff83fa9aebdbda7263926375cf93cae333c9f4428fa6017d1b9df0",
+    "current_sha256": "2e91cb7195f0488439d6ec98346f0e4d3aa1dba513e23687e392301c05c9be8b",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/extend_trial_auto_rectangle.py",
+    "new": "scripts/s12_extend_trial_auto_rectangle.py",
+    "original_sha256": "ba68870f162c352aed721e05ea778b7e470372f4c17e06630a5a7abc3d02d67b",
+    "current_sha256": "96bcf21db8d517af860a7a9ba395a3eec38f74be16404a99d9e9730cb89e7697",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/freeze_fullframe_preprocessing.py",
+    "new": "scripts/s13_freeze_fullframe_preprocessing.py",
+    "original_sha256": "f40418da32c7cf2d6ad34b04457fe8fb8a2ca32c3ee203cc09a385ebcf2e2079",
+    "current_sha256": "302e3ddad13fc00fc7b62651d1fe1928cce0cdf896acacf300f8a183f4ad5ad9",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/label_dataset.py",
+    "new": "scripts/s14_label_dataset.py",
+    "original_sha256": "7b62b6a881c4634554298d1741b520ff6974896f2555eb2e2cc61a95cbbf1b7f",
+    "current_sha256": "f4ab23a164fce9c8761af03233fbf0731a76b615389e786c6b124242f318459f",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/measure_preprocessing_pilot.py",
+    "new": "scripts/s15_measure_preprocessing_pilot.py",
+    "original_sha256": "688794cfa1a1d3cc7b2b5d3970b6276267831dd281925ade12fc486ddd4ee579",
+    "current_sha256": "ef1ad55d9a2c3e0539a1652e779f24defb0a84a91595aaabf09f4f17a4397b9e",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/plot_experimental_grid.py",
+    "new": "scripts/s16_plot_experimental_grid.py",
+    "original_sha256": "0cfbcfbd30d3bb62c91a9ebf6c4d51f41a29917b5ad669f5f95792c477e8497e",
+    "current_sha256": "5c556792523e453a03c26531e90d7d1cbbd91c0e2862abecc6d5b1b785ef3d1c",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/prepare_fullframe_masters.py",
+    "new": "scripts/s17_prepare_fullframe_masters.py",
+    "original_sha256": "5588cb6f5b43251d22a1f9b0efbb69ec8b0018599b1a28b76d505573d76afd06",
+    "current_sha256": "c869f8a2e3d8fffaa85248ecf4cf7c3f5b4be7d52447b972a84e0d8d8fc96857",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/prepare_metric_masters.py",
+    "new": "scripts/s18_prepare_metric_masters.py",
+    "original_sha256": "f687844dc4bcf2359ae872c21624b8e1894d817c0e8efdcdee8b09a070ef9fa1",
+    "current_sha256": "cf67594213f84d8a1515051274315dba695f56210886aac68f7d4bad13a100d1",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/prepare_sowing_verification.py",
+    "new": "scripts/s19_prepare_sowing_verification.py",
+    "original_sha256": "5cf95471ac3e2e2bc222f67be91bbcf4c18d88f25cdf0a67e89f2e21b7371fa7",
+    "current_sha256": "4337540e2594a941e5a8509253252809733a7f019e89c337144f5c922a623f2f",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/README.md",
+    "new": "scripts/20_README.md",
+    "original_sha256": "af9b69aedf7d682eaf3bde45525e64fe8e6c5e90bd9b778607931755dee07c15",
+    "current_sha256": "96a9842b6ffa6229b5e023cc4119c06b39284e6a922e6fb17f456390be2b4915",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/README_anotacion_geometria.md",
+    "new": "scripts/21_README_anotacion_geometria.md",
+    "original_sha256": "03a783341533cf94978dc99ef2ee9abd872019297803390848684e0f667e04dc",
+    "current_sha256": "3a4e8e7bc61a9bf8907ae8c2a1a13b103ef14453f1b687b491449742bfcdab40",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/README_detect_pot_geometry.md",
+    "new": "scripts/22_README_detect_pot_geometry.md",
+    "original_sha256": "0c833a012f2a7a4baecebdae309d441a641ef46a94283950077a55cffc20d487",
+    "current_sha256": "41f4f24bf8ecc8fbdb5ebd3e9b9b0956db3d013d8b5d908f632f878e547656da",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/README_fullframe_masters.md",
+    "new": "scripts/23_README_fullframe_masters.md",
+    "original_sha256": "69fdd5799ac0fb05abf7399e885012ecc2e4a311e73b7a0d37e0510e65ffa378",
+    "current_sha256": "39a5b955c6e038b565df2230f0216af17ff56c4300ca9c1c447eb84bb5915942",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/README_metric_masters.md",
+    "new": "scripts/24_README_metric_masters.md",
+    "original_sha256": "b7a1ad744baab6bb60c8f207e278985b1943710d010530aadb2e43e09031d142",
+    "current_sha256": "e67843cf5cf470b49bc0607688cd2159391d5947e69e89b844a1bba4c8dcc119",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/record_preprocessing_environment.py",
+    "new": "scripts/s25_record_preprocessing_environment.py",
+    "original_sha256": "2151bff15ab079251d3acfb210214852ae8c2896905f01cea6a2c9bd14eec770",
+    "current_sha256": "53c2c7dec06e685fe9568b18a9fe40cc1c2758c6cc95f71247eed085475d4bfb",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/release_prepared_images.py",
+    "new": "scripts/s26_release_prepared_images.py",
+    "original_sha256": "ba0338b03d0ebb2037f88dae352d72032082e6cc19ebac4fa1d44f7f364782a7",
+    "current_sha256": "6b3836d506e90db5d9f308c36f94bc3c4ea296912c2630850b405c0e97274c7f",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/review_segmentation_benchmark_v1.py",
+    "new": "scripts/s27_review_segmentation_benchmark_v1.py",
+    "original_sha256": "4ed1ae3c2ba389ad1ff12f82f4c24922082f4d5328dd29a6d2b3cdab1cb6be04",
+    "current_sha256": "60192264c892da658127b2ec5cfc05feb0cf48c3d1dd402b519708ce878ea54d",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/select_preprocessing_development.py",
+    "new": "scripts/s28_select_preprocessing_development.py",
+    "original_sha256": "ab7097603d991e39d5d6914ad9d84e32fae43d6c1453a0c7722adc25d144d1d9",
+    "current_sha256": "6bf35f278a73de0e3a98876127edd0886606ec6c67716d7476ea7ac5f6e73440",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/test_prepare_fullframe_masters.py",
+    "new": "scripts/test_29_prepare_fullframe_masters.py",
+    "original_sha256": "aca1f5f8fa5b4cc0795149916366976e1a73924a24a75ccc36a4242ec7681e40",
+    "current_sha256": "c57fcd06fc31753d26212d4677440a698598f1e13b608520caf7eb987dffc301",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/test_prepare_metric_masters.py",
+    "new": "scripts/test_30_prepare_metric_masters.py",
+    "original_sha256": "709603527bd5f9312ddf12eaeab57a3637d888de20038dd95fe575cc23bf6b3e",
+    "current_sha256": "cfaac8e3c06c6a4c6b04c919fe70f10ce295a92e11a38d4a59744a34dae63178",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/trial_green_roi_preprocessing.py",
+    "new": "scripts/s31_trial_green_roi_preprocessing.py",
+    "original_sha256": "36c2201f455993476e823e0f2ea20b1c0054831022937d7037da63fc4eee791f",
+    "current_sha256": "5553fc8a59a8e06d9c3140943f919730c06135fc1988a86956b9e27cbb45eb98",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/validate_fullframe_masters.py",
+    "new": "scripts/s32_validate_fullframe_masters.py",
+    "original_sha256": "becb5c963868298a5f2ac8a5e960d39d85262a0a417f6e9c7e328594087530c0",
+    "current_sha256": "d970fa7356239f9e4faaeae4b31912e87660f8beb0bafaf59756620a6925ea09",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/validate_green_roi_trial.py",
+    "new": "scripts/s33_validate_green_roi_trial.py",
+    "original_sha256": "9c14973f879075c0a6bd8d37bd26326e2a92b238d1d62a16b057aec895f646cb",
+    "current_sha256": "8a2b26914653a74ab3e70bb6576032dd242dedea87ac7f44b8fe5155cc387e69",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/validate_preprocessing_pilot.py",
+    "new": "scripts/s34_validate_preprocessing_pilot.py",
+    "original_sha256": "4cf8d46ff429a71bef678850d0c2367df6d65bb5cb6ef644f6c772d138436c0c",
+    "current_sha256": "748844dd02f3520ea2b9abd7c1036505e4c29ac011f8ef419a25c609db6bc37f",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/verify_repetition_photos.py",
+    "new": "scripts/s35_verify_repetition_photos.py",
+    "original_sha256": "27c3d8cc521bc00a605f92b656c8a6a490405b391390ec6e19bbc5ea5accabfd",
+    "current_sha256": "69e9df3b61a05afb7ac2ceaa5afc10ee5cd71ad88f04443641dde2488dd62401",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/annotation_io.py",
+    "new": "scripts/segmentation_benchmark/s01_annotation_io.py",
+    "original_sha256": "b039438526f60e93081d7653a866562adf338d16505e3fc8c180771a040200e9",
+    "current_sha256": "b903def28f7cbf66ecac774ed1129210ed5625df60c093852c2a854c21f1c50b",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/common.py",
+    "new": "scripts/segmentation_benchmark/s02_common.py",
+    "original_sha256": "cb57ee8f7d67dcc40ed220d66478ccf131a689ae312f1e78e79e0abb2c043d99",
+    "current_sha256": "acc0a0300c0b4a3c19b9847762804c9b35e7709413ba19659d4acb38fa1e4384",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/inventory_and_sample.py",
+    "new": "scripts/segmentation_benchmark/s03_inventory_and_sample.py",
+    "original_sha256": "344ad17d7e5dc4cd3821693e331fa08d1cead8bf80d73f2ae0a77ed5399a0a9a",
+    "current_sha256": "aed82f8b607e33d60f61862b0090f0c396803e0dba46e6592740ab03fe55d847",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/render_views.py",
+    "new": "scripts/segmentation_benchmark/s04_render_views.py",
+    "original_sha256": "4be89ad27c741ff91cd381440d6303e2a79fa1e0567fd442964f26daf3fcd62f",
+    "current_sha256": "a8c773787cb9d76845cd7c3815c6f992f2f929101de354dae889f6feb9601528",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/report.py",
+    "new": "scripts/segmentation_benchmark/s05_report.py",
+    "original_sha256": "b4b9293ebd5e99b4a7d5c44549d2066519c75514e89675c18616108d98602ad5",
+    "current_sha256": "fbb1ffc0a9f3d44ce3cbf573d3e5fb7fe6921115c19a665fd21fe1875b7ae183",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/run_methods.py",
+    "new": "scripts/segmentation_benchmark/s06_run_methods.py",
+    "original_sha256": "74f31df3bb18eaae258b046e796d9fc4a25b4c1179401f4c8bc2b4730e9b10b6",
+    "current_sha256": "6f860aab0010d7db72a3ff7a2169836d5611984fc7dcf2d04274362e8c40120e",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/score.py",
+    "new": "scripts/segmentation_benchmark/s07_score.py",
+    "original_sha256": "7cf62485fc98590478c8595fa9a0c47b1a12c07dd5d1ff4b3f64971ae1976136",
+    "current_sha256": "8d6b811b13880a969e789c7a610b30eb5272c3176be2a9d99963260ef6365e10",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/validate_run.py",
+    "new": "scripts/segmentation_benchmark/s08_validate_run.py",
+    "original_sha256": "8083ec51027f4749e81cf349f78c8764bc24120dab58ab0c670042178bf14578",
+    "current_sha256": "ab430c84f038d0a64f04026b73b94e8aa57d5e13696dad103b12f0aa31781f14",
+    "frozen_bytes_preserved": false
+  },
+  {
+    "old": "scripts/segmentation_benchmark/tests/test_segmentation_benchmark.py",
+    "new": "scripts/segmentation_benchmark/tests/test_01_segmentation_benchmark.py",
+    "original_sha256": "0efaa104e6fef2272731ca0c127a19ca2873d8a4e879623f3d14c230bbb259ac",
+    "current_sha256": "f6d3a5a9082d38d0660b0fb9c9a8b69111139a606879422dd0db6050f605628d",
+    "frozen_bytes_preserved": false
+  }
+]

@@ -1,0 +1,18 @@
+test_apply_frozen_gate_and_separate_roles (test_29_prepare_fullframe_masters.FullframeTests.test_apply_frozen_gate_and_separate_roles) ... ok
+test_changed_source_is_not_processed (test_29_prepare_fullframe_masters.FullframeTests.test_changed_source_is_not_processed) ... ok
+test_exact_ratio_no_upscale (test_29_prepare_fullframe_masters.FullframeTests.test_exact_ratio_no_upscale) ... ok
+test_geometry_not_required_or_silently_approved (test_29_prepare_fullframe_masters.FullframeTests.test_geometry_not_required_or_silently_approved) ... ok
+test_pipeline_partition_color_orientation_and_resume (test_29_prepare_fullframe_masters.FullframeTests.test_pipeline_partition_color_orientation_and_resume) ... ok
+test_bad_measurement_rejected (test_30_prepare_metric_masters.GeometryTests.test_bad_measurement_rejected) ... ok
+test_cli_partition_gates_and_traceability (test_30_prepare_metric_masters.GeometryTests.test_cli_partition_gates_and_traceability) ... ok
+test_exif_orientation_and_color (test_30_prepare_metric_masters.GeometryTests.test_exif_orientation_and_color) ... ok
+test_explicit_fields_by_year_have_distinct_scales (test_30_prepare_metric_masters.GeometryTests.test_explicit_fields_by_year_have_distinct_scales) ... ok
+test_field_cannot_cut_nominal_pot (test_30_prepare_metric_masters.GeometryTests.test_field_cannot_cut_nominal_pot) ... ok
+test_incomplete_capture_never_padded (test_30_prepare_metric_masters.GeometryTests.test_incomplete_capture_never_padded) ... ok
+test_same_cm_per_pixel_retains_two_pot_sizes (test_30_prepare_metric_masters.GeometryTests.test_same_cm_per_pixel_retains_two_pot_sizes) ... ok
+test_vegetation_and_margin_must_fit (test_30_prepare_metric_masters.GeometryTests.test_vegetation_and_margin_must_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.154s
+
+OK

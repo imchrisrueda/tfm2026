@@ -1,0 +1,115 @@
+{
+  "version": "v1",
+  "seed": 20261112,
+  "created_utc": "2026-11-12T19:48:37.539982+00:00",
+  "status": "frozen_initial_assignment",
+  "methodology_entry": "M024",
+  "input_manifest_fingerprint": "0f1768ec347663d97586ef37c6b06b92ed6c3fb270b540eb1492412404e960fe",
+  "fingerprint_fields": [
+    "source_path",
+    "sha256",
+    "species_code",
+    "split_group_id",
+    "year",
+    "campana",
+    "repeticion",
+    "posicion",
+    "use_in_initial_partition",
+    "exclude_from_primary_training",
+    "num_plants_seeded_2025",
+    "num_plants_nominal_2026"
+  ],
+  "unit": "split_group_id_same_pot_all_dates_and_cameras",
+  "strata": [
+    "year",
+    "campana",
+    "repeticion",
+    "species_code",
+    "density_count"
+  ],
+  "density_note": "2025 sembradas; 2026 nominales; no recuentos observados por foto",
+  "G_fit_fraction_of_palmeri_groups": 0.2,
+  "classifier_weights": {
+    "C_fit": 70,
+    "C_val": 15,
+    "T_real": 15
+  },
+  "C_val_functions": {
+    "model_selection": 0.5,
+    "threshold_calibration": 0.5
+  },
+  "algorithm": "SHA256(seed|phase|group_id) sort; G_fit nearest integer; classifier largest remainder, ties C_fit/C_val/T_real; C_val halves by class/year/campaign",
+  "no_outcomes_or_pixels_used": true,
+  "excluded_acquisition": "2025-06-20_c1_r2/nikon_d70",
+  "group_counts": {
+    "C_fit": 236,
+    "C_val": 54,
+    "T_real": 46,
+    "M_aux": 40,
+    "G_fit": 24
+  },
+  "group_counts_by_species": [
+    {
+      "split_assignment": "C_fit",
+      "species_code": "H",
+      "groups": 82
+    },
+    {
+      "split_assignment": "C_fit",
+      "species_code": "P",
+      "groups": 70
+    },
+    {
+      "split_assignment": "C_fit",
+      "species_code": "R",
+      "groups": 84
+    },
+    {
+      "split_assignment": "C_val",
+      "species_code": "H",
+      "groups": 20
+    },
+    {
+      "split_assignment": "C_val",
+      "species_code": "P",
+      "groups": 14
+    },
+    {
+      "split_assignment": "C_val",
+      "species_code": "R",
+      "groups": 20
+    },
+    {
+      "split_assignment": "G_fit",
+      "species_code": "P",
+      "groups": 24
+    },
+    {
+      "split_assignment": "M_aux",
+      "species_code": "M",
+      "groups": 40
+    },
+    {
+      "split_assignment": "T_real",
+      "species_code": "H",
+      "groups": 16
+    },
+    {
+      "split_assignment": "T_real",
+      "species_code": "P",
+      "groups": 14
+    },
+    {
+      "split_assignment": "T_real",
+      "species_code": "R",
+      "groups": 16
+    }
+  ],
+  "limitations": [
+    "Holdout within represented campaigns/repetitions, not an external campaign evaluation.",
+    "Cross-repetition independence relies on available grouping; no undocumented transplant links inferred.",
+    "Small validation/calibration samples limit precision; no minimum performance is guaranteed.",
+    "Bad images and incomplete Nikon acquisition inherit group role but are not emitted in active sets."
+  ],
+  "assignments_sha256": "f1f3de08ca38848c14931090d8c44cd5427598092967eae6455eca5d5332d419"
+}

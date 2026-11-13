@@ -1,0 +1,3 @@
+# Preserve exact bytes: archived sources and evidence are identified by SHA-256.
+# Do not normalize LF/CRLF when storing or checking out these files.
+* -text

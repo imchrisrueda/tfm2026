@@ -1,0 +1,16 @@
+# Mapa de experimentos y documentos
+
+Estado reconstruido de la bitácora M001–M042 y los archivos; esta reorganización no ejecuta experimentos nuevos.
+
+| ID | Bloque | Estado real | Documentación / evidencia | Código de entrada actual |
+|---|---|---|---|---|
+| E01 | Inventario, etiquetas, siembra | Vigente, tareas 1–10 cerradas; especies de diseño y trabajo separadas | [Manifiestos](../data/processed/README_manifiestos.md), [auditoría histórica](../documentacion/01_informes/01_AUDITORIA_DATOS_CRUDOS_2026-11-12.md), M001–M023 | `scripts/s05_build_dataset_manifests.py`; no usar el etiquetador antiguo para consolidar |
+| E02 | Particiones por maceta | v1 congelada, tareas 11–14 cerradas | [Particiones](../data/processed/partitions/v1/README.md), `exp_design/08_partition_plan_v1.json`, M024 | `scripts/s09_create_group_partitions.py` (creación histórica; no reasignar) |
+| E03 | Escala métrica 12/22 cm | Piloto histórico; sustituido por M029 | [Piloto](../data/processed/preprocessing/README.md), `pilot_v1`, `geometry_review_v2`, M025–M028 | `scripts/s18_prepare_metric_masters.py`; no es el corpus activo |
+| E04 | Comparación geométrica y encuadre completo | Desarrollo terminado; medidas pilot_only | [Revisión](../documentacion/01_informes/02_REVISION_PREPROCESADO_2026-11-12.md), `development_geometry_v3`, `strategy_comparison_v3`, M029–M032 | `scripts/s06_compare_preprocessing_strategies.py` |
+| E05 | Entrega fullframe_v2_release1 | ACTIVA: 1.419 maestros; no implica cm/píxel común | [Entrega](../data/processed/preprocessing/fullframe_v2/release/README.md), [registro activo](../exp_design/12_preprocessing_registry.json), M032 | `scripts/s17_prepare_fullframe_masters.py`, `scripts/s32_validate_fullframe_masters.py`; código migrado no reanuda el fingerprint histórico |
+| E06 | ROI maceta+verde | Ensayo dirigido de 12 C_fit realizado; candidata, sin migración ni aprendizaje comparado | [Informe](../data/processed/preprocessing/roi_small_trial_v1/README.md), M034–M038 | `scripts/s31_trial_green_roi_preprocessing.py`, `s11_diagnose_green_roi_trial.py`, `s12_extend_trial_auto_rectangle.py` |
+| E07 | Benchmark HSV/SAM/planta/tierra | Desarrollo NO APROBADO para congelar/evaluar. L0/L1 tuning ejecutados; SAM, anotación humana y correcciones R1–R7 pendientes | [Especificación](../documentacion/02_protocolos/01_EXPERIMENTO_COMPARACION_PREPROCESADO_V1.md), [revisión](../documentacion/01_informes/03_REVISION_SEGMENTATION_BENCHMARK_V1.md), [máscaras humanas](../documentacion/02_protocolos/02_GUIA_MASCARAS_HUMANAS_BENCHMARK.md), M039–M042 | [Índice de código](../scripts/segmentation_benchmark/00_INDICE.md) |
+| E08 | Clasificador, BioCLIP, LoRA, panel experto | Pendientes; no hay entrenamientos acreditados por los ensayos de preparación | [Tareas 21–60](../tasks.md), [plan](../03_PLANIFICACION_TFM.md) | Preparar entorno DRAGO y resolver entradas/referencia según cada tarea |
+
+La bitácora es la cronología; este mapa es la vista de estado. Los informes dentro de datasets conservan rutas históricas: resolverlas con [el mapa de migración](03_mapa_migracion.json). La numeración identifica archivos, no la secuencia experimental ni un orden obligatorio de ejecución.

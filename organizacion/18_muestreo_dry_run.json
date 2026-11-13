@@ -1,0 +1,48 @@
+{
+  "mode": "dry_run",
+  "output_dir": "C:\\Users\\christianr\\Desktop\\tfm2026\\data\\processed\\preprocessing\\segmentation_benchmark_v1",
+  "c_fit_images": 856,
+  "c_fit_groups": 236,
+  "eligible_eval_groups_by_stratum": {
+    "2025_H": 17,
+    "2025_P": 14,
+    "2025_R": 15,
+    "2026_H": 39,
+    "2026_P": 34,
+    "2026_R": 41
+  },
+  "tuning_coverage": {
+    "2025_H": 3,
+    "2025_P": 3,
+    "2025_R": 3,
+    "2026_H": 3,
+    "2026_P": 3,
+    "2026_R": 3
+  },
+  "evaluation_coverage": {
+    "2025_H": 9,
+    "2025_P": 12,
+    "2025_R": 9,
+    "2026_H": 9,
+    "2026_P": 12,
+    "2026_R": 9
+  },
+  "double_annotation_by_stratum": {
+    "2025_H": 3,
+    "2025_P": 4,
+    "2025_R": 3,
+    "2026_H": 3,
+    "2026_P": 4,
+    "2026_R": 3
+  },
+  "stress_coverage": {
+    "2025_H": 2,
+    "2025_P": 2,
+    "2025_R": 2,
+    "2026_H": 3,
+    "2026_P": 2,
+    "2026_R": 1
+  },
+  "disjointness_verified": true,
+  "forbidden_splits_group_overlap": {}
+}

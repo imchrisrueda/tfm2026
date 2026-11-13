@@ -1,0 +1,8 @@
+{
+  "status": "pilot",
+  "field_cm_by_year": {"2025": 12, "2026": 22},
+  "output_px": 1024,
+  "minimum_vegetation_margin_cm": 1,
+  "purpose": "Review of two year-specific fields authorized by investigator on 2026-11-12. Values 12 and 22 cm are pilot candidates, not frozen. These outputs have different physical pixel scales.",
+  "freeze_status": "not_frozen_pending_domain_and_measurement_review"
+}

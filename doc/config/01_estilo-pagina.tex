@@ -1,0 +1,26 @@
+% Cabeceras y pies inspirados en las paginas 21 y 22 de 06_tfg_base.pdf.
+\usepackage{fancyhdr}
+\setlength{\headheight}{16pt}
+\setlength{\headsep}{20pt}
+\setlength{\footskip}{30pt}
+\pagestyle{fancy}
+\fancyhf{}
+% Pares: capitulo a la izquierda. Impares: seccion a la derecha.
+\fancyhead[LE]{\small\scshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\small\nouppercase{\rightmark}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{\chaptername\ \thechapter.\ #1}{}%
+}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\thesection.\ #1}%
+}
+% Las aperturas de capitulo mantienen la cabecera vacia.
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\small\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+}

@@ -1,0 +1,22 @@
+{
+  "renamed_files": 103,
+  "archived_originals_verified": 103,
+  "dataset_metadata_verified": 922,
+  "dataset_metadata_changed": [],
+  "python_syntax_verified": true,
+  "broken_markdown_links": [],
+  "external_references": [
+    {
+      "file": "03_PLANIFICACION_TFM.md",
+      "target": "<C:/Users/christianr/Desktop/tracework/tracework/05 Actividades/Reunión de planificación del TFM con Raquel Martínez — 2026-11-04.md>",
+      "status": "external_reference_preserved_not_verified"
+    },
+    {
+      "file": "03_PLANIFICACION_TFM.md",
+      "target": "<C:/Users/christianr/Desktop/ecpa2027/reports/ecpa/ECPA-2027_Abstract-Rueda-Ayala-VPRA.docx>",
+      "status": "external_reference_preserved_not_verified"
+    }
+  ],
+  "image_files_deleted": 0,
+  "experimental_tasks_closed": 0
+}

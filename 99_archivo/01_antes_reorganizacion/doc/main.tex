@@ -1,0 +1,46 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\scshape\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{graphicx}
+\graphicspath{{figuras/}}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\titulotfm}{Optimización de modelos generativos avanzados para la síntesis de imágenes agrícolas orientadas a la detección automática de \textit{Amaranthus palmeri}}
+\newcommand{\autortfm}{Christian Andrés Rueda Ayala}
+\newcommand{\tutortfm}{Ph.D. Raquel Martínez}
+\newcommand{\mastertfm}{Máster Universitario en Inteligencia Artificial}
+\newcommand{\cursotfm}{2026--2027}
+\begin{document}
+\hypersetup{pageanchor=false}
+\input{preliminares/portada}
+\hypersetup{pageanchor=true}
+\pagenumbering{roman}
+% Opcional: descomenta para incluir agradecimientos.
+% \input{preliminares/agradecimientos}
+\tableofcontents
+\input{preliminares/resumen}
+\clearpage
+\pagenumbering{arabic}
+\input{capitulos/01-introduccion}
+\input{capitulos/03-metodologia}
+\input{capitulos/04-resultados}
+\input{capitulos/04b-discusion}
+\input{capitulos/05-conclusiones}
+\bibliographystyle{plain}
+\bibliography{bibliografia/referencias}
+\appendix
+\input{anexos/anexo-a}
+\end{document}

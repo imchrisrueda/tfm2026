@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": {
+    "main_script_matches_pre_run_hash": true,
+    "twelve_active_C_fit_only": true,
+    "original_hashes_unchanged": true,
+    "frozen_release_and_registry_unchanged": true,
+    "main_48_records_and_96_views": true,
+    "windows_bounded_and_png_views_valid": true,
+    "ratio_invariance_geometry": true,
+    "extension_12_cases_and_24_views": true,
+    "synthetic_exact_crop_coordinates": true,
+    "synthetic_uniform_aspect_and_padding": true,
+    "synthetic_square_fails_closed": true,
+    "synthetic_rectangle_clips_margin_not_capture": true,
+    "synthetic_reference_failure_fallback": true,
+    "diagnostic_pot_only_losses_explicit": true,
+    "automatic_rectangle_result_counts": true
+  },
+  "artifacts": {
+    "data/processed/preprocessing/roi_small_trial_v1/config_before_run.json": "95aeff95e0d7425086d43f69d42b7a4ae642895b1f713c202f92f5ee60fde583",
+    "data/processed/preprocessing/roi_small_trial_v1/visual_reference_before_run.json": "4726c6808198c7cc5fba1e8eb481060eb50bb192cec6013e153630881e606716",
+    "data/processed/preprocessing/roi_small_trial_v1/results.json": "48e9900aec8ba5e1e74cd5658d56c8f64672b3d78efb2c9f9f15f723c59e74ce",
+    "data/processed/preprocessing/roi_small_trial_v1/results.csv": "14d591f57aa4330943beecaff16e63a1206d32e40065657e5d06f8938b0f87b6",
+    "data/processed/preprocessing/roi_small_trial_v1/margin_and_green_diagnostics.json": "ae2e3afa7ca124db61f955a96cab5153124bc3a67c02471f2c859237d25f7167",
+    "data/processed/preprocessing/roi_small_trial_v1/auto_rectangle_extension/results.json": "e4f69fdb6432df851f303872e91049dcefaf574374f861b73d9c402072ef4114"
+  },
+  "scope": "Technical checks and geometric proxy evaluation; not expert segmentation or model performance",
+  "scripts": {
+    "s31_trial_green_roi_preprocessing.py": "5553fc8a59a8e06d9c3140943f919730c06135fc1988a86956b9e27cbb45eb98",
+    "s11_diagnose_green_roi_trial.py": "2e91cb7195f0488439d6ec98346f0e4d3aa1dba513e23687e392301c05c9be8b",
+    "s12_extend_trial_auto_rectangle.py": "96bcf21db8d517af860a7a9ba395a3eec38f74be16404a99d9e9730cb89e7697",
+    "s33_validate_green_roi_trial.py": "8a2b26914653a74ab3e70bb6576032dd242dedea87ac7f44b8fe5155cc387e69"
+  }
+}

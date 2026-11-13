@@ -1,0 +1,38 @@
+{
+  "scope": "Review: metadata plus temporary synthetic fixtures; no SAM, no evaluation inference",
+  "protected_inputs_verified": true,
+  "sample_regeneration_matches": {
+    "tuning": true,
+    "evaluation": true,
+    "stress": true
+  },
+  "submitted_code_inventory_matches": true,
+  "real_freeze_absent": true,
+  "real_evaluation_prediction_files": 0,
+  "real_evaluation_view_files": 0,
+  "real_consensus_case_count": 0,
+  "tuning_hough_circles_match_stored_baseline": {
+    "cases": 18,
+    "max_abs_difference_px": 0.0
+  },
+  "defect_freeze_accepts_metadata_only_no_masks_no_checkpoint_no_calibration": true,
+  "defect_gate_accepts_changed_code_listed_in_inventory": true,
+  "defect_gate_accepts_changed_reference_metadata": true,
+  "defect_freeze_can_be_overwritten": true,
+  "defect_scorer_succeeds_with_missing_GT_and_predictions": {
+    "n_sample_images": 2,
+    "missing_GT": 1,
+    "entities_reported": [
+      "V1"
+    ]
+  },
+  "defect_whole_critical_organ_loss_not_flagged": true,
+  "bootstrap_not_called_in_score_split": true,
+  "defect_landmark_in_ignore_still_counted": true,
+  "defect_no_soil_association_status_ok": true,
+  "bootstrap_median_statistic_distinction": {
+    "reported_median_of_paired_differences": 1.0,
+    "difference_of_method_medians": 99.0
+  },
+  "registry_sha256": "d9e184f5194aa5aa029a81c53f3d60054de6005f87c5040b63c930c39b8a6cfa"
+}

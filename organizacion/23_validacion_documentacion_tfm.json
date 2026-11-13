@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "checks": {
+    "root_contains_only_index_manuscript_previous_pdf": true,
+    "no_experiment_reports_or_json_in_doc": true,
+    "no_compilation_auxiliaries_in_doc": true,
+    "all_tex_includes_bibliography_and_logo_exist": true,
+    "technical_documents_outside_manuscript": true,
+    "all_moved_files_exist": true,
+    "all_pre_move_backups_match": true
+  },
+  "latex_references": [
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/preliminares/01_portada.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/preliminares/02_agradecimientos.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/preliminares/03_resumen.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/capitulos/01_introduccion.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/capitulos/03_metodologia.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/capitulos/04_resultados.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/capitulos/05_discusion.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/capitulos/06_conclusiones.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/bibliografia/01_referencias.bib",
+      "exists": true
+    },
+    {
+      "source": "doc/01_memoria.tex",
+      "target": "doc/anexos/01_anexo-a.tex",
+      "exists": true
+    },
+    {
+      "source": "doc/preliminares/01_portada.tex",
+      "target": "doc/recursos/02_umu.png",
+      "exists": true
+    }
+  ],
+  "pdf_compiled": false
+}

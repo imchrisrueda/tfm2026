@@ -1,0 +1,37 @@
+# Datasets: originals, review copies, processed masters and experiment outputs.
+/data/
+/sample/
+/analisis_muestra/**/*.jpg
+/analisis_muestra/**/*.jpeg
+/analisis_muestra/**/*.png
+/analisis_muestra/**/*.heic
+/analisis_muestra/**/*.tif
+/analisis_muestra/**/*.tiff
+
+# Local environments, downloaded dependencies and temporary work.
+/.venv/
+/venv/
+/scratch/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+node_modules/
+
+# Model weights and local secrets.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+
+# Editor / operating-system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*

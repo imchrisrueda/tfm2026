@@ -1,0 +1,14 @@
+{
+  "status": "pilot",
+  "strategy": "full_frame_exact_aspect",
+  "max_long_edge": 2048,
+  "png_compress_level": 3,
+  "purpose": "Compare retention and detail on the 91-image C_fit development lot before choosing strategy. No common metric field or cm-per-pixel is asserted.",
+  "resampling": "Lanczos",
+  "orientation": "EXIF_before_measurements",
+  "color": "valid_ICC_to_sRGB_else_explicit_assumption",
+  "crop": false,
+  "pad": false,
+  "homography": false,
+  "metric_normalization": false
+}

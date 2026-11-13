@@ -1,0 +1,151 @@
+{
+  "decision": "M044",
+  "moves": [
+    {
+      "old": "doc/01_AUDITORIA_DATOS_CRUDOS_2026-11-12.md",
+      "new": "documentacion/01_informes/01_AUDITORIA_DATOS_CRUDOS_2026-11-12.md",
+      "sha256_before": "2df04041c6d0490d5f676cc8e9e348b2df688f27f6b22ac2dab74763713e75e7",
+      "sha256_after": "2ece155d1d3fbee81cba603dea8f3266b785f1e87aecf40ae87efc8e9228a9b0"
+    },
+    {
+      "old": "doc/13_REVISION_PREPROCESADO_2026-11-12.md",
+      "new": "documentacion/01_informes/02_REVISION_PREPROCESADO_2026-11-12.md",
+      "sha256_before": "89c3532533dc481e2db83d8c8aadd4ec24c58e9a3f53c9898e568a69dd229b8a",
+      "sha256_after": "89c3532533dc481e2db83d8c8aadd4ec24c58e9a3f53c9898e568a69dd229b8a"
+    },
+    {
+      "old": "doc/14_REVISION_SEGMENTATION_BENCHMARK_V1.md",
+      "new": "documentacion/01_informes/03_REVISION_SEGMENTATION_BENCHMARK_V1.md",
+      "sha256_before": "69d72320cbfa432405e4ea12fe4b576780691983cebf5d73b2279cae37047f34",
+      "sha256_after": "4811395d714c5243158bb6633fd030e68b63081c20dd13cd4c8c8b0ef03d3ad0"
+    },
+    {
+      "old": "doc/15_REVISION_SEGMENTATION_BENCHMARK_V1_CHECKS.json",
+      "new": "documentacion/01_informes/04_REVISION_SEGMENTATION_BENCHMARK_V1_CHECKS.json",
+      "sha256_before": "657fdc5811248085819a5558c56d319cbce725bd5db62973a4a66e83fe8eac04",
+      "sha256_after": "657fdc5811248085819a5558c56d319cbce725bd5db62973a4a66e83fe8eac04"
+    },
+    {
+      "old": "doc/02_EXPERIMENTO_COMPARACION_PREPROCESADO_V1.md",
+      "new": "documentacion/02_protocolos/01_EXPERIMENTO_COMPARACION_PREPROCESADO_V1.md",
+      "sha256_before": "f4a653a6bb28edfb0145e425bd2e73742f8224f398afee515930598cb91f7bba",
+      "sha256_after": "f4a653a6bb28edfb0145e425bd2e73742f8224f398afee515930598cb91f7bba"
+    },
+    {
+      "old": "doc/03_GUIA_MASCARAS_HUMANAS_BENCHMARK.md",
+      "new": "documentacion/02_protocolos/02_GUIA_MASCARAS_HUMANAS_BENCHMARK.md",
+      "sha256_before": "7819b1d6e1a471546261b28459c27e6fbd62f5778bb315440c808d75cc872314",
+      "sha256_after": "7819b1d6e1a471546261b28459c27e6fbd62f5778bb315440c808d75cc872314"
+    },
+    {
+      "old": "doc/11_main.tex",
+      "new": "doc/01_memoria.tex",
+      "sha256_before": "310e4b343cae50d69ce9e46989c27d19ec4b5676d753c1aefbb9a5e44f71810a",
+      "sha256_after": "b616d1fe0eb8d835efb5c532219f977365d949c2ebeeff83699ee6dd625e5e40"
+    },
+    {
+      "old": "doc/09_main.pdf",
+      "new": "doc/02_memoria_previa.pdf",
+      "sha256_before": "35426ca497c3b042512054ba68db7f59a9d1dea0e921e835c268c5bb074149fb",
+      "sha256_after": "35426ca497c3b042512054ba68db7f59a9d1dea0e921e835c268c5bb074149fb"
+    },
+    {
+      "old": "doc/capitulos/01_01-introduccion.tex",
+      "new": "doc/capitulos/01_introduccion.tex",
+      "sha256_before": "3f9fe8e200a5b6d874facda2087d7e624ceebea9810f03bac07423d8fec20352",
+      "sha256_after": "3f9fe8e200a5b6d874facda2087d7e624ceebea9810f03bac07423d8fec20352"
+    },
+    {
+      "old": "doc/capitulos/02_02-estado-arte.tex",
+      "new": "doc/capitulos/02_estado_arte.tex",
+      "sha256_before": "584ecdb61ad46c9d315b2e51c83d077d1b0ae28de4ce1fae52f9eb22acb85ea7",
+      "sha256_after": "584ecdb61ad46c9d315b2e51c83d077d1b0ae28de4ce1fae52f9eb22acb85ea7"
+    },
+    {
+      "old": "doc/capitulos/03_03-metodologia.tex",
+      "new": "doc/capitulos/03_metodologia.tex",
+      "sha256_before": "c13de3f0a8e1a3bc9b030aa4581135f13fde584223af88082880721db9960684",
+      "sha256_after": "c13de3f0a8e1a3bc9b030aa4581135f13fde584223af88082880721db9960684"
+    },
+    {
+      "old": "doc/capitulos/04_04-resultados.tex",
+      "new": "doc/capitulos/04_resultados.tex",
+      "sha256_before": "d53f5a2ee7a80b1a82316502fa1a14bb05f5fd3dde8e4608718fb62ed67dd481",
+      "sha256_after": "d53f5a2ee7a80b1a82316502fa1a14bb05f5fd3dde8e4608718fb62ed67dd481"
+    },
+    {
+      "old": "doc/capitulos/05_04b-discusion.tex",
+      "new": "doc/capitulos/05_discusion.tex",
+      "sha256_before": "1ced983c461f231d3b445b0141eae4f56dd2fefd884c40ead8dde1bbb2950e61",
+      "sha256_after": "1ced983c461f231d3b445b0141eae4f56dd2fefd884c40ead8dde1bbb2950e61"
+    },
+    {
+      "old": "doc/capitulos/06_05-conclusiones.tex",
+      "new": "doc/capitulos/06_conclusiones.tex",
+      "sha256_before": "792fa03ccb9dde9212364a74a0e30fec69cb43e56e291510788c0eac7040eaec",
+      "sha256_after": "792fa03ccb9dde9212364a74a0e30fec69cb43e56e291510788c0eac7040eaec"
+    },
+    {
+      "old": "doc/preliminares/01_agradecimientos.tex",
+      "new": "doc/preliminares/02_agradecimientos.tex",
+      "sha256_before": "b94d2aa01db75802ff8b84958e594d919e9cd43d1305c0b3979a8334aa5795bd",
+      "sha256_after": "b94d2aa01db75802ff8b84958e594d919e9cd43d1305c0b3979a8334aa5795bd"
+    },
+    {
+      "old": "doc/preliminares/02_portada.tex",
+      "new": "doc/preliminares/01_portada.tex",
+      "sha256_before": "129a3da702ca6f19eb2f95b496a8d1738d15c8a35187463ff2c284ab90149821",
+      "sha256_after": "129a3da702ca6f19eb2f95b496a8d1738d15c8a35187463ff2c284ab90149821"
+    },
+    {
+      "old": "doc/04_main.aux",
+      "new": "99_archivo/02_compilacion_previa/01_main.aux",
+      "sha256_before": "a26b9e3c9026ed4b2053f506a8e1d905521433de9e53f5d1e61de6c037796651",
+      "sha256_after": "a26b9e3c9026ed4b2053f506a8e1d905521433de9e53f5d1e61de6c037796651"
+    },
+    {
+      "old": "doc/05_main.bbl",
+      "new": "99_archivo/02_compilacion_previa/02_main.bbl",
+      "sha256_before": "12710a24f83c10590530b62bc4d4726365bf225ab87f8ba48c8216758b2de2c9",
+      "sha256_after": "12710a24f83c10590530b62bc4d4726365bf225ab87f8ba48c8216758b2de2c9"
+    },
+    {
+      "old": "doc/06_main.blg",
+      "new": "99_archivo/02_compilacion_previa/03_main.blg",
+      "sha256_before": "4bd29969e9c08147964910b18e62d704076a646f909648eeb7381f9011fca9e6",
+      "sha256_after": "4bd29969e9c08147964910b18e62d704076a646f909648eeb7381f9011fca9e6"
+    },
+    {
+      "old": "doc/07_main.log",
+      "new": "99_archivo/02_compilacion_previa/04_main.log",
+      "sha256_before": "2b0c64036c49d79b05de659b09dc7567c0f11c252379034d6f080c7846f73e0c",
+      "sha256_after": "2b0c64036c49d79b05de659b09dc7567c0f11c252379034d6f080c7846f73e0c"
+    },
+    {
+      "old": "doc/08_main.out",
+      "new": "99_archivo/02_compilacion_previa/05_main.out",
+      "sha256_before": "f0f066e1885bb44a78eb617743474158bb1a39ffd2e9c9b6631c8a72edf38df9",
+      "sha256_after": "f0f066e1885bb44a78eb617743474158bb1a39ffd2e9c9b6631c8a72edf38df9"
+    },
+    {
+      "old": "doc/10_main.synctex.gz",
+      "new": "99_archivo/02_compilacion_previa/06_main.synctex.gz",
+      "sha256_before": "7a90d04794b489f7dc0a56ff2baeb4e6b065faf123c0b71c32433738e18354dc",
+      "sha256_after": "7a90d04794b489f7dc0a56ff2baeb4e6b065faf123c0b71c32433738e18354dc"
+    },
+    {
+      "old": "doc/12_main.toc",
+      "new": "99_archivo/02_compilacion_previa/07_main.toc",
+      "sha256_before": "a8497d009b3af0275a9923583778544a3e6b2b6e4bbaa000017db1a5527d0ca6",
+      "sha256_after": "a8497d009b3af0275a9923583778544a3e6b2b6e4bbaa000017db1a5527d0ca6"
+    },
+    {
+      "old": "doc/bibliografia/02_texput.log",
+      "new": "99_archivo/02_compilacion_previa/08_texput.log",
+      "sha256_before": "f48218549967fe5696cbff72de5e68829ee440aea530ed04577fcaeb1d49921b",
+      "sha256_after": "f48218549967fe5696cbff72de5e68829ee440aea530ed04577fcaeb1d49921b"
+    }
+  ],
+  "datasets_modified": false,
+  "pdf_recompiled": false
+}

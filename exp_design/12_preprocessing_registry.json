@@ -1,0 +1,62 @@
+{
+  "active_preparation_version": "fullframe_v2_release1",
+  "created_utc": "2026-11-12T22:36:16.581919+00:00",
+  "decision_source": "BITACORA_METODOLOGICA.md#M029",
+  "configuration_path": "exp_design/10_preprocessing_fullframe_v2_frozen.json",
+  "configuration_sha256": "4b6947cbe0c881500406e14056d241f53380454c1cdefc3eec949a1e4473e402",
+  "execution_manifest_path": "data/processed/preprocessing/fullframe_v2/manifest_fullframe.json",
+  "execution_manifest_sha256": "54b43c516e0d176fee7212f1d952a6358d04101a61657c74dace57c7c9884147",
+  "prepared_manifest_path": "data/processed/preprocessing/fullframe_v2/release/manifest_prepared.json",
+  "prepared_manifest_sha256": "95159559e78a5d2578672cb5913f7d2c0e691ec35043a4460ad22f076e834387",
+  "prepared_csv_path": "data/processed/preprocessing/fullframe_v2/release/manifest_prepared.csv",
+  "prepared_csv_sha256": "39025d1fea6dce441ffdfa6b54dcbe321c2a260a5fc158e8a62ff5e328be9c8c",
+  "release_validation_path": "data/processed/preprocessing/fullframe_v2/release/validation_release.json",
+  "release_validation_sha256": "f00c110a51c3f6513ae0cd5e5365fb74c2d433061a9439ec8b7adb53060a85d0",
+  "metadata_errata_path": "data/processed/preprocessing/fullframe_v2/release/geometry_metadata_errata.json",
+  "metadata_errata_sha256": "dc7343bb145b63becd41b6b339e9ffd646f8060584c9c5d543b50313425a9564",
+  "partition_lists": {
+    "C_fit": {
+      "json_path": "data/processed/preprocessing/fullframe_v2/release/partitions/C_fit.json",
+      "json_sha256": "c7fa70bf0e992050a9db71d46ef6a58bb868b87278c23cfc1b05388b412fd3e1",
+      "csv_path": "data/processed/preprocessing/fullframe_v2/release/partitions/C_fit.csv",
+      "csv_sha256": "b370b294be4337a4c3a1682ba3b177b1dd8b2fce9773c97c2a86411c33960e5e"
+    },
+    "C_val_model_selection": {
+      "json_path": "data/processed/preprocessing/fullframe_v2/release/partitions/C_val_model_selection.json",
+      "json_sha256": "bea1473b13a5f7808da9eabfc3029ec9d7c3eb65d85426079c4515b44ced83ee",
+      "csv_path": "data/processed/preprocessing/fullframe_v2/release/partitions/C_val_model_selection.csv",
+      "csv_sha256": "2724dccc5bdd3119413b9130aac29341aa7d554430ee7abb4dcce1e176615327"
+    },
+    "C_val_calibration": {
+      "json_path": "data/processed/preprocessing/fullframe_v2/release/partitions/C_val_calibration.json",
+      "json_sha256": "9e6254a4401db488bdb22f379ff1ad8eb45e9584601752ab5d0ededd54b22757",
+      "csv_path": "data/processed/preprocessing/fullframe_v2/release/partitions/C_val_calibration.csv",
+      "csv_sha256": "f2f5970d573ed4763d5332537857909d007f64a12607e0541951290b2376fde3"
+    },
+    "G_fit": {
+      "json_path": "data/processed/preprocessing/fullframe_v2/release/partitions/G_fit.json",
+      "json_sha256": "3d3921e7ffe23679c78466aaf96036917c48b680bc7fd12b1acfafcd624a2fcc",
+      "csv_path": "data/processed/preprocessing/fullframe_v2/release/partitions/G_fit.csv",
+      "csv_sha256": "e3edee725319b4bf5eb1696c1f8f68a4eeaa2341d69b9b0dd08d33990bfa2b95"
+    },
+    "T_real": {
+      "json_path": "data/processed/preprocessing/fullframe_v2/release/partitions/T_real.json",
+      "json_sha256": "7f95f1ae3335f88711cdd8a407415b2afddead69b2364164ec9f3483f9f8feba",
+      "csv_path": "data/processed/preprocessing/fullframe_v2/release/partitions/T_real.csv",
+      "csv_sha256": "5706f78ea06ea43e145a6d6a910b503fb873de43a57f67f949861f3e1b9f3da3"
+    },
+    "M_aux": {
+      "json_path": "data/processed/preprocessing/fullframe_v2/release/partitions/M_aux.json",
+      "json_sha256": "dd79c7084732a4629b9206cc3e34c49831b668507a05107ae6596ff2923ce2e3",
+      "csv_path": "data/processed/preprocessing/fullframe_v2/release/partitions/M_aux.csv",
+      "csv_sha256": "ba6f56a07be8fd81445801622aa33e0e58ef087dd26da335459495917b539289"
+    }
+  },
+  "join_keys": [
+    "image_id",
+    "sha256"
+  ],
+  "scale_scope": "apparent_proportions_preserved_no_common_cm_per_pixel",
+  "metric_production_approved": 0,
+  "source_manifest_policy": "Preserve original authoritative manifests and v1 group assignment. Rebuild complements explicitly; never overwrite labels or infer labels from verification filenames."
+}

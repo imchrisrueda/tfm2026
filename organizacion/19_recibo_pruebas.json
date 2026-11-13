@@ -1,0 +1,38 @@
+[
+  {
+    "command": [
+      "C:\\Python312\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "evidence": "15_pruebas_procesadores.txt"
+  },
+  {
+    "command": [
+      "C:\\Python312\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts/segmentation_benchmark/tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "evidence": "16_pruebas_benchmark.txt"
+  },
+  {
+    "command": [
+      "C:\\Python312\\python.exe",
+      "scripts/segmentation_benchmark/s03_inventory_and_sample.py"
+    ],
+    "exit_code": 0,
+    "evidence": "18_muestreo_dry_run.json"
+  }
+]

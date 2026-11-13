@@ -1,0 +1,16 @@
+test_deterministic_bootstrap_and_wilson (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_deterministic_bootstrap_and_wilson) ... ok
+test_evaluation_blocked_without_freeze (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_evaluation_blocked_without_freeze) ... ok
+test_exif_rotation_and_oriented_coords (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_exif_rotation_and_oriented_coords) ... ok
+test_fine_mask_not_erased (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_fine_mask_not_erased) ... ok
+test_interior_rgb_intact_before_resize (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_interior_rgb_intact_before_resize) ... ok
+test_isotropic_aspect_and_no_implicit_crop (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_isotropic_aspect_and_no_implicit_crop) ... ok
+test_margin_clipped_to_capture (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_margin_clipped_to_capture) ... ok
+test_metrics_empty_gt_empty_pred_and_ignore (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_metrics_empty_gt_empty_pred_and_ignore) ... ok
+test_no_prompt_state_leakage (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_no_prompt_state_leakage) ... ok
+test_sam3_association_keeps_whole_plant_instance (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_sam3_association_keeps_whole_plant_instance) ... ok
+test_xyxy_and_norm_cxcywh_roundtrip (test_01_segmentation_benchmark.TestSegmentationBenchmark.test_xyxy_and_norm_cxcywh_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.094s
+
+OK

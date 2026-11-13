@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-11-13T10:15:29.512493+00:00",
+  "passed": true,
+  "task_requirements": {
+    "16": {
+      "proven": true,
+      "evidence": {
+        "development_geometry_v3/measurement_review.json": "abeec58c82fc1dc1b8f3438efb4875debe05db4041ff93e67a685ed331d4bc10",
+        "development_geometry_v3/annotations_development_reviewed.json": "35e646814472331459b85eb33e41c67adf1b20279ecaee34dcb3398d8421c6c2"
+      }
+    },
+    "17": {
+      "proven": true,
+      "evidence": {
+        "strategy_comparison_v3/comparison.json": "ce3f4f04b6e828c8d33f66c79d39175fbda0ba95b913be1441daa68084bb284c"
+      }
+    },
+    "18": {
+      "proven": true,
+      "evidence": {
+        "fullframe_development_v3/validation_fullframe.json": "6c21c464eeb779c57589500c03e3dde31ce0012d16709d47b3918ea1ee490e92",
+        "fullframe_v2/validation_fullframe.json": "a522c0288c04a2ed95344c8e2cd3c7a58b7691ac65d855182e2127828dec976b"
+      }
+    },
+    "19": {
+      "proven": true,
+      "evidence": {
+        "development_geometry_v3/measurement_review.json": "abeec58c82fc1dc1b8f3438efb4875debe05db4041ff93e67a685ed331d4bc10",
+        "strategy_comparison_v3/comparison.json": "ce3f4f04b6e828c8d33f66c79d39175fbda0ba95b913be1441daa68084bb284c",
+        "fullframe_v2/validation_fullframe.json": "a522c0288c04a2ed95344c8e2cd3c7a58b7691ac65d855182e2127828dec976b"
+      }
+    },
+    "20": {
+      "proven": true,
+      "evidence": {
+        "fullframe_v2/audit_receipt.json": "26bd2c6082835340fae6184dd74f317b12d1b467aeab501f3dc3b6aa1f1b85e9",
+        "fullframe_v2/release/validation_release.json": "f00c110a51c3f6513ae0cd5e5365fb74c2d433061a9439ec8b7adb53060a85d0",
+        "fullframe_v2/release/reproduction_inventory.json": "74fd9a5acd1df3cb125034bc79eaa3eddceb7c0322137ed61b2bea7f42d2d13f"
+      }
+    }
+  },
+  "originals_verified": 1451,
+  "masters_verified": 1419,
+  "inactive_rows": 32,
+  "descriptive_errata": 9,
+  "metric_references_production_approved": 0,
+  "counts_by_role": {
+    "C_fit": 856,
+    "C_val_model_selection": 92,
+    "C_val_calibration": 98,
+    "G_fit": 86,
+    "T_real": 164,
+    "M_aux": 123
+  },
+  "coverage_year_species": {
+    "2025|H": 138,
+    "2025|R": 140,
+    "2025|P": 134,
+    "2025|M": 49,
+    "2026|H": 286,
+    "2026|P": 303,
+    "2026|R": 295,
+    "2026|M": 74
+  },
+  "coverage_year_camera": {
+    "2025|NIKON D70": 405,
+    "2025|iPhone SE (2nd generation)": 56,
+    "2026|ILCE-6300": 130,
+    "2026|NIKON D3000": 828
+  },
+  "frozen_utc": "2026-11-12T20:32:07.246749+00:00",
+  "generation_completed_utc": "2026-11-12T21:57:11.731439+00:00",
+  "T_real_used_to_choose_parameters": false,
+  "selection_scope": "Geometry, frame retention and detail comparison in C_fit; no model performance optimization claimed",
+  "limits": [
+    "Exploratory geometry remains pilot_only, with independent repeatability/tolerances pending task45",
+    "Full-frame proportions preserved; no common cm-per-pixel or 3D metrology",
+    "Downstream loaders/model resolution/captions remain future tasks",
+    "Technical audit does not claim exhaustive botanical or capture-integrity approval"
+  ],
+  "registry_sha256": "21b13da90a3e5823a01a1c3316e17f753c909247b1bba1152d74a55b8cb11b38",
+  "tasks_sha256": "75bb0768b57685d14cc91e804eb91c7dbf79c922d8467994c030606c977beef0",
+  "script_sha256": "2987926ee8f96354d32fd4ec6a959d18d3dafde3ee1b3c4859afea16bd29c73a"
+}

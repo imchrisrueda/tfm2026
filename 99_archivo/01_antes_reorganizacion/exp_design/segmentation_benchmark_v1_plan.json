@@ -1,0 +1,88 @@
+{
+  "experiment_id": "segmentation_benchmark_v1",
+  "status": "planned_for_implementation_review_not_frozen_not_executed",
+  "methodology_entry": "M039",
+  "specification": "doc/EXPERIMENTO_COMPARACION_PREPROCESADO_V1.md",
+  "sampling_seed": "20261113-roi-benchmark-v1",
+  "allowed_role": "C_fit",
+  "input_rows": "data/processed/preprocessing/fullframe_v2/release/partitions/C_fit.json",
+  "previously_exposed_selection": "data/processed/preprocessing/development_v1/selection.json",
+  "evaluation_exclusion_unit": "split_group_id_in_previously_exposed_selection",
+  "unit": "one_active_image_per_selected_split_group_id",
+  "selection": "SHA256_group_sort_within_year_species_then_SHA256_image_sort_within_group",
+  "tuning": {
+    "images": 18,
+    "groups_source": "previously_exposed_selection",
+    "per_year_species": 3,
+    "avoid_historical_stress_groups_if_feasible": true
+  },
+  "evaluation": {
+    "images": 60,
+    "groups": 60,
+    "quotas_each_year": {"P": 12, "H": 9, "R": 9},
+    "years": [2025, 2026],
+    "no_pixels_used_in_sampling": true,
+    "fresh_available_group_counts_observed_2026_11_13": {
+      "2025": {"H": 17, "P": 14, "R": 15},
+      "2026": {"H": 39, "P": 34, "R": 41}
+    }
+  },
+  "stress": {
+    "source": "data/processed/preprocessing/roi_small_trial_v1/config_before_run.json",
+    "size": 12,
+    "pool_with_evaluation": false
+  },
+  "reference": {
+    "primary_human_annotations": 60,
+    "second_human_review": 60,
+    "independent_double_annotation": 20,
+    "double_annotation_species": {"P": 8, "H": 6, "R": 6},
+    "layers": ["plant_target", "soil_target", "other_plant", "pot_rim_wall", "card_label", "other_background", "ignore_uncertain"],
+    "coordinates": "EXIF_oriented_original_native_pixels",
+    "before_evaluation_inference": true,
+    "algorithm_generated_ground_truth_allowed": false
+  },
+  "methods": ["L0_fullframe", "L1_hough_hsv_rectangle", "S1_sam3_automatic", "L2_assisted_circle", "S2_assisted_sam3"],
+  "views": ["V0_fullframe", "V1_hsv_rectangle", "V2_sam_window_unmasked", "V3_sam_plant", "V4_sam_plant_soil", "V5_hsv_mask_in_sam_window"],
+  "presentation": {
+    "sizes": [224, 384, 1024],
+    "resize": "isotropic_one_pass_from_oriented_sRGB_original",
+    "background_sRGB": [127, 127, 127],
+    "shared_window": ["V2", "V3", "V4", "V5"],
+    "sam_window_margin_fraction_of_max_bbox_side": 0.05,
+    "generative_fill_or_superresolution": false
+  },
+  "sam3_initial_candidates_not_frozen": {
+    "checkpoint_revision_sha": null,
+    "repository_commit": null,
+    "text_prompts_separate_states": ["plant", "soil"],
+    "confidence_candidates_tuning_only": [0.3, 0.5, 0.7],
+    "pixel_threshold": 0.5,
+    "automatic_anchor": "same_Hough_circle_as_L1",
+    "assistance_max_active_seconds": 120,
+    "assistance_max_positive_boxes": 1,
+    "assistance_max_additional_prompts": 5
+  },
+  "decision_thresholds_proposed_engineering_not_botanical_validation": {
+    "median_final_plant_retention_min": 0.99,
+    "fraction_images_retention_at_least_0_98_without_critical_failure_min": 0.95,
+    "check_palmeri_separately": true,
+    "critical_added_tissue_loss_above": 0.02,
+    "critical_landmark_loss_above": 0.05,
+    "critical_complete_organ_loss": true
+  },
+  "statistics": {
+    "paired_stratified_group_bootstrap_replicates": 10000,
+    "strata": ["year", "species_code"],
+    "confidence": 0.95,
+    "failure_interval": "Wilson",
+    "palmeri_evaluation_n": 24,
+    "population_failure_below_5_percent_certified": false
+  },
+  "execution_gate": "deliver_implementation_and_tuning_for_review_before_locked_evaluation",
+  "freeze_created": false,
+  "sample_selected": false,
+  "sam_inference_executed": false,
+  "production_migration_authorized": false,
+  "downstream_model_experiments_in_current_scope": false
+}
